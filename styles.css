@@ -1,0 +1,68 @@
+body {
+margin: 0;
+font-family: Arial;
+
+
+
+}
+
+
+header {
+background-color:rgb(44, 74, 107);
+color: white;
+padding: 1.5rem;
+text-align: center;
+box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+ 
+
+section {
+padding: 1rem 1.5rem;
+max-width: 900px;
+
+
+}
+
+h2 {
+color: #ac4e10;
+margin-top: 0;
+}
+
+
+
+.sub-list {
+list-style-type: circle;
+margin-top: 0.5rem;
+}
+
+
+
+footer {
+text-align: center;
+padding: 1rem;
+background-color: #003366;
+color: white;
+margin-top: 2rem;
+}
+
+
+h1 {
+font-size: 1.5rem;
+}
+
+@media screen and (max-width: 768px) {
+section {
+margin: 1rem;
+padding: 1rem;
+}
+}
+
+i {
+    color: orange;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+}
