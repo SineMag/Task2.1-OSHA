@@ -1,9 +1,7 @@
 body {
 margin: 0;
 font-family: Arial;
-
-
-
+background-color: rgb(243, 239, 239);
 
 }
 
@@ -19,7 +17,7 @@ background: linear-gradient(to right,red, blue);
 }
  
 
-section {
+.osha {
 padding: 1rem 1.5rem;
 max-width: 900px;
 
@@ -30,15 +28,6 @@ h2 {
 color: #340e46;
 margin-top: 0;
 }
-
-
-
-.sub-list {
-list-style-type: circle;
-margin-top: 0.5rem;
-}
-
-
 
 h1 {
 font-size: 1.5rem;
@@ -54,9 +43,4 @@ padding: 1rem;
 i {
     color: orange;
 }
-.container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-   
-}
+
